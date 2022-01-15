@@ -210,8 +210,17 @@ color: white;
         margin-left: 0;
         justify-content: center;
     }
+    .influencer-story{
+       align-items: center;
+       width: 100%;
+       margin: 20px;
+    }
     .camera{
-        margin-top: 100px;
+     margin-top: 350px;
+    }
+    .camera img{
+        width: 250px;
+        height:250px;
     }
     .blogs{
         display: grid;
@@ -243,6 +252,11 @@ color: white;
         margin-left: 0;
         justify-content: center;
     }
+    .influencer-story{
+        align-items: center;
+        width: 100%;
+        margin: 20px;
+     }
     .camera{
         margin-top: 100px;
     }
