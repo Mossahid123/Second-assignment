@@ -131,6 +131,36 @@ margin: 34px;}
  .fa-arrow-right.filled{
     color: #E02C6DDE;
  }
+ /*------------- 
+ login-container
+ ---------------- */
+ 
+ .login-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.login-title{
+    color:#E02C6DDE;
+    margin: 0;
+}
+.login-form input, button{
+    border: 5px solid #E02C6DDE;
+    margin-top: 15px;
+    padding-left: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+.login-form button{
+    background-color: #E02C6DDE;
+    color:black;
+    font-weight: 700;
+    padding: 15px;
+}
  /*-----------------
   footer styles
  ----------------- */
@@ -149,4 +179,10 @@ margin: 34px;}
  }
  .footer-text p,i{
 color: white;
+ }
+ /*------------------
+  media-quaries
+ ----------------- */
+ @media only screen and (max-width: 688px) {
+
  }
