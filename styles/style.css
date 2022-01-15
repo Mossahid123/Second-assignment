@@ -15,7 +15,6 @@ body{
     margin-right: 120px;
     margin-top: 95px;
 }
-}
 .brand-name {
     text-align: center;
 }
@@ -29,6 +28,9 @@ body{
 
 .navigation ul{
     display: flex;
+}
+.navigation ul i{
+    color: black;
 }
 .navigation ul li{
     list-style: none;
@@ -184,5 +186,70 @@ color: white;
   media-quaries
  ----------------- */
  @media only screen and (max-width: 688px) {
-
+    header{
+        width: 100%;
+    }
+    .top-header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .brand-name {
+        text-align: center;
+    }
+    .navigation ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+    }
+    .main-header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        justify-content: center;
+    }
+    .camera{
+        margin-top: 100px;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+ }
+ @media only screen and (min-width:688px) and (max-width:992px) {
+    header{
+        width: 100%;
+    }
+    .top-header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .brand-name {
+        text-align: center;
+    }
+    .navigation ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+    }
+    .main-header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        justify-content: center;
+    }
+    .camera{
+        margin-top: 100px;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
  }
